@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roller Coaster Quiz Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎢</text></svg>"> <!-- Simple Favicon -->
+</head>
+<body>
+    <!-- Dark Mode Toggle outside main for absolute positioning -->
+    <div class="dark-mode-toggle">
+        <label class="switch">
+            <input type="checkbox" id="dark-mode-switch">
+            <span class="slider round"></span>
+            <!-- Consider adding sun/moon icons later -->
+        </label>
+    </div>
+
+    <main>
+        <h1>🎢 Coaster Quiz Challenge 🎢</h1>
+
+        <div class="toggles-container">
+             <div class="toggle-group">
+                <span>Difficulty</span>
+                <label class="switch">
+                    <input type="checkbox" id="mode-switch" checked> <!-- Start Hard -->
+                    <span class="slider round"></span>
+                </label>
+                <span id="mode-label">HARD</span>
+            </div>
+             <div class="toggle-group">
+                 <span>Autoplay</span>
+                <label class="switch">
+                    <input type="checkbox" id="autoplay-switch">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Main Quiz Area -->
+        <div id="quiz-container">
+            <div id="guess-timer">--</div>
+            <div id="loading-indicator">Loading Coaster Data... <span style="font-size: 1.5em;">⏳</span></div>
+            <img id="coaster-image" src="" alt="Guess the Roller Coaster Manufacturer" class="hidden"> <!-- Starts hidden -->
+
+            <!-- Input/Options Area -->
+            <div id="input-container" class="hidden">
+                <input type="text" id="manufacturer-input" placeholder="Enter Manufacturer Guess">
+                <button id="check-button">Check</button>
+            </div>
+            <div id="options-container" class="options-container hidden">
+                <!-- Options loaded dynamically -->
+            </div>
+
+            <!-- Hint Area -->
+            <div class="hint-container">
+                <button id="hint-button" class="hidden">💡 Hint</button>
+                <div id="hint-display"></div>
+            </div>
+
+            <!-- Result Display -->
+            <div class="result" id="result"></div>
+            <button id="next-button" class="next-button hidden">NEXT ➡️</button>
+
+            <!-- Stats and Coaster Details Section -->
+            <div class="stats-info-container">
+                 <!-- Coaster Details Card -->
+                 <div class="info-card hidden" id="details-card">
+                    <h3>Coaster Details</h3>
+                    <ul>
+                         <li><strong>Name:</strong> <span id="coaster-name">...</span></li>
+                         <li><strong>Park:</strong> <span id="coaster-park">...</span></li>
+                         <li><strong>Country:</strong> <span id="coaster-country">...</span></li>
+                         <li><strong>Opened:</strong> <span id="coaster-opening-date">...</span></li>
+                     </ul>
+                 </div>
+                 <!-- Player Stats -->
+                 <div class="stats-container hidden" id="stats-display">
+                    <div>Streak 🔥: <span id="streak">0</span></div>
+                    <div>Highest 🏆: <span id="highest-streak">0</span></div> <!-- Local PB -->
+                    <div>Avg Time ⏱️: <span id="avg-time">N/A</span></div>
+                 </div>
+            </div>
+
+             <!-- Leaderboard Score Submission Area -->
+             <div id="submit-score-area" class="hidden">
+                 <p>High score streak! Enter name for leaderboard:</p>
+                 <input type="text" id="player-name" placeholder="Your Name (max 15 chars)" maxlength="15">
+                 <button id="submit-score-button">Submit Score</button>
+             </div>
+        </div><!-- end quiz-container -->
+
+         <!-- Leaderboard Section -->
+         <section id="leaderboard-section" class="hidden">
+            <h2>🏆 Leaderboard (Top Streaks)</h2>
+            <ol id="leaderboard-list">
+                 <li>Loading leaderboard...</li>
+             </ol>
+             <button id="refresh-leaderboard" class="small-button">Refresh</button>
+         </section>
+    </main>
+
+    <footer>
+         <p>
+            <span>ⓘ</span> Coaster data from community contributions & public resources. Leaderboard via Google Sheets. |
+            <button id="toggle-mfg-button" class="link-button">Toggle Mfg List</button>
+        </p>
+         <div class="manufacturer-list hidden" id="manufacturer-list">
+             <!-- List populated dynamically -->
+         </div>
+    </footer>
+
+    <!-- Load JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

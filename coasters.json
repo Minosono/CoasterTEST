@@ -1,0 +1,32 @@
+[
+  { "id": 1, "image": "assets/coaster1.png", "manufacturer": ["Wiegand", "Wiegand Coasters"], "name": "Silbersee Bob", "country": "Germany", "park": "Freizeit- und Ferienpark Silbersee", "openingDate": "2000" },
+  { "id": 2, "image": "assets/coaster2.png", "manufacturer": ["Vekoma", "Vekoma Rides"], "name": "Suspended Looping Coaster", "country": "China", "park": "Suzhou Amusement Land", "openingDate": "2003" },
+  { "id": 3, "image": "assets/coaster3.png", "manufacturer": ["Gerstlauer", "Gerstlauer Amusement Rides"], "name": "Pitts Special", "country": "Finland", "park": "PowerPark", "openingDate": "2020" },
+  { "id": 4, "image": "assets/coaster4.png", "manufacturer": ["Mack Rides", "Mack"], "name": "Gobbi Express", "country": "Germany", "park": "Taunus Wunderland", "openingDate": "2024" },
+  { "id": 5, "image": "assets/coaster5.png", "manufacturer": ["Arrow Dynamics", "Arrow"], "name": "Roller Coaster", "country": "India", "park": "MGM Dizzee World", "openingDate": "1996" },
+  { "id": 6, "image": "assets/coaster6.png", "manufacturer": ["SBF Visa", "SBF"], "name": "Bandidos", "country": "France", "park": "Mer de Sable", "openingDate": "2016" },
+  { "id": 7, "image": "assets/coaster7.png", "manufacturer": ["B&M", "Bolliger & Mabillard", "Bolliger and Mabillard"], "name": "Banshee", "country": "USA", "park": "Kings Island", "openingDate": "2014" },
+  { "id": 8, "image": "assets/coaster8.png", "manufacturer": ["Maurer Rides", "Maurer", "Maurer & Söhne"], "name": "Freischütz", "country": "Germany", "park": "Bayern-Park", "openingDate": "2011" },
+  { "id": 9, "image": "assets/coaster9.png", "manufacturer": ["Intamin", "Intamin AG", "Intamin Amusement Rides"], "name": "Ipanema Skate Ride", "country": "Vietnam", "park": "VinWonders Phu Quoc", "openingDate": "2020" },
+  { "id": 10, "image": "assets/coaster10.png", "manufacturer": ["Vekoma", "Vekoma Rides"], "name": "Boomerang (Relocated)", "country": "Denmark", "park": "Former Tivoli Karolinelund", "openingDate": "1985" },
+  { "id": 11, "image": "assets/coaster11.png", "manufacturer": ["Reverchon", "Reverchon Industries"], "name": "Crazy Mouse", "country": "Great Britain", "park": "Funland Amusement Park (Hayling Island)", "openingDate": "2002" },
+  { "id": 12, "image": "assets/coaster12.png", "manufacturer": ["Sunkid", "Sunkid Heege"], "name": "Butterfly", "country": "Germany", "park": "Wildpark Schwarze Berge", "openingDate": "2010" },
+  { "id": 13, "image": "assets/coaster13.png", "manufacturer": ["Vekoma", "Vekoma Rides"], "name": "High Speed", "country": "Vietnam", "park": "Bao Son Paradise Park", "openingDate": "2019" },
+  { "id": 14, "image": "assets/coaster14.png", "manufacturer": ["Zierer", "Zierer Rides"], "name": "Force One Coaster", "country": "Indonesia", "park": "Kid City (Trans Studio Mall Cibubur)", "openingDate": "2014" },
+  { "id": 15, "image": "assets/coaster15.png", "manufacturer": ["Pax Company", "Pax"], "name": "Formula", "country": "Russia", "park": "Former VVC Wheel Park", "openingDate": "2011" },
+  { "id": 16, "image": "assets/coaster16.png", "manufacturer": ["Intamin", "Intamin AG", "Intamin Amusement Rides"], "name": "The Big One", "country": "England", "park": "Blackpool Pleasure Beach", "openingDate": "1994" },
+  { "id": 17, "image": "assets/coaster17.png", "manufacturer": ["Giovanola", "Giovanola Rides"], "name": "Anaconda", "country": "South Africa", "park": "Gold Reef City", "openingDate": "1999" },
+  { "id": 18, "image": "assets/coaster18.png", "manufacturer": ["Zierer", "Zierer Rides"], "name": "Children Coaster", "country": "Japan", "park": "Nagashima Spa Land", "openingDate": "1983" },
+  { "id": 19, "image": "assets/coaster19.png", "manufacturer": ["Zierer", "Zierer Rides"], "name": "Vilde Hønsejagt", "country": "Denmark", "park": "Djurs Sommerland", "openingDate": "2015" },
+  { "id": 20, "image": "assets/coaster20.png", "manufacturer": ["Arrow Dynamics", "Arrow"], "name": "Diamond Back", "country": "USA", "park": "Frontier City", "openingDate": "1994" },
+  { "id": 21, "image": "assets/coaster21.png", "manufacturer": ["Vekoma", "Vekoma Rides"], "name": "Megablitz", "country": "Austria", "park": "Wiener Prater", "openingDate": "1994" },
+  { "id": 22, "image": "assets/coaster22.png", "manufacturer": ["Mack Rides", "Mack"], "name": "Hyper Coaster", "country": "Turkey", "park": "The Land of Legends Theme Park", "openingDate": "2018" },
+  { "id": 23, "image": "assets/coaster23.png", "manufacturer": ["Wisdom Rides", "Wisdom"], "name": "Miner Mike", "country": "USA", "park": "Haunted Trails (Burbank)", "openingDate": "1994" },
+  { "id": 24, "image": "assets/coaster24.png", "manufacturer": ["Mack Rides", "Mack"], "name": "Wild Mouse", "country": "Japan", "park": "Nagashima Spa Land", "openingDate": "1996" },
+  { "id": 25, "image": "assets/coaster25.png", "manufacturer": ["Maurer Rides", "Maurer", "Maurer & Söhne"], "name": "X-Coaster", "country": "USA", "park": "Magic Springs Theme and Water Park", "openingDate": "2006" }
+  
+  // !!! IMPORTANT: ADD MANY MORE COASTERS HERE !!!
+  // Use the structure above. Ensure `manufacturer` is an array.
+  // Use relative paths (like "assets/coasterX.png") if hosting images yourself,
+  // or absolute URLs if hotlinking (less reliable).
+]
