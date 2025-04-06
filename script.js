@@ -3,10 +3,10 @@
 const LEADERBOARD_API_URL = 'https://script.google.com/macros/s/AKfycbxl3DdcISjmieBcaw3qolYNpkQLktJ0Jw_cdnKk5SydMF4NTmamFXcoKUmxZukfABoG/exec'; // <--- REPLACE
 
 const COASTER_DATA_URL = 'coasters.json'; // Path to your coaster data file
-const HARD_MODE_TIME = 15; // Seconds for hard mode timer
-const EASY_MODE_TIME = 20; // Seconds for easy mode timer
-const HINT_DELAY = 5000;   // Milliseconds before hint button appears
-const AUTOPLAY_DELAY = 4000; // Milliseconds delay for autoplay
+const HARD_MODE_TIME = 25; // Seconds for hard mode timer
+const EASY_MODE_TIME = 60; // Seconds for easy mode timer
+const HINT_DELAY = 15000;   // Milliseconds before hint button appears
+const AUTOPLAY_DELAY = 5000; // Milliseconds delay for autoplay
 
 // --- Global State ---
 let allCoasters = [];       // Full list of coasters loaded from JSON
