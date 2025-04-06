@@ -15,7 +15,7 @@
   { "id": 14, "image": "coaster14.png", "manufacturer": ["Zierer", "Zierer Rides"], "name": "Force One Coaster", "country": "Indonesia", "park": "Kid City (Trans Studio Mall Cibubur)", "openingDate": "2014" },
   { "id": 15, "image": "coaster15.png", "manufacturer": ["Pax Company", "Pax"], "name": "Formula", "country": "Russia", "park": "Former VVC Wheel Park", "openingDate": "2011" },
   { "id": 16, "image": "coaster16.png", "manufacturer": ["Intamin", "Intamin AG", "Intamin Amusement Rides"], "name": "The Big One", "country": "England", "park": "Blackpool Pleasure Beach", "openingDate": "1994" },
-  { "id": 17, "image": "acoaster17.png", "manufacturer": ["Giovanola", "Giovanola Rides"], "name": "Anaconda", "country": "South Africa", "park": "Gold Reef City", "openingDate": "1999" },
+  { "id": 17, "image": "coaster17.png", "manufacturer": ["Giovanola", "Giovanola Rides"], "name": "Anaconda", "country": "South Africa", "park": "Gold Reef City", "openingDate": "1999" },
   { "id": 18, "image": "coaster18.png", "manufacturer": ["Zierer", "Zierer Rides"], "name": "Children Coaster", "country": "Japan", "park": "Nagashima Spa Land", "openingDate": "1983" },
   { "id": 19, "image": "coaster19.png", "manufacturer": ["Zierer", "Zierer Rides"], "name": "Vilde Hønsejagt", "country": "Denmark", "park": "Djurs Sommerland", "openingDate": "2015" },
   { "id": 20, "image": "coaster20.png", "manufacturer": ["Arrow Dynamics", "Arrow"], "name": "Diamond Back", "country": "USA", "park": "Frontier City", "openingDate": "1994" },
