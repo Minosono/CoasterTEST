@@ -1,6 +1,6 @@
 // --- Configuration ---
 // IMPORTANT: Replace this URL with the one you got after deploying your Google Apps Script!
-const LEADERBOARD_API_URL = 'https://script.google.com/macros/s/AKfycbyHaQDyr8KNT9lBtkwCxo3goxwvjTL5BBomIlYGDQL-YPsOkUBGGh4I4q7LBPAC8P9J/exec'; // <--- REPLACE
+const LEADERBOARD_API_URL = 'https://script.google.com/macros/s/AKfycbxl3DdcISjmieBcaw3qolYNpkQLktJ0Jw_cdnKk5SydMF4NTmamFXcoKUmxZukfABoG/exec'; // <--- REPLACE
 
 const COASTER_DATA_URL = 'coasters.json'; // Path to your coaster data file
 const HARD_MODE_TIME = 15; // Seconds for hard mode timer
