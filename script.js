@@ -452,8 +452,6 @@ function showLoadingMessage(message, isError = false) {
      DOMElements.loadingIndicator.textContent = message;
      DOMElements.loadingIndicator.style.color = isError ? 'var(--incorrect-color)' : 'inherit';
      DOMElements.loadingIndicator.classList.remove('hidden');
-     // Dim the quiz area during critical loading phases
-     DOMElements.quizContainer.style.opacity = 0.5;
      // Hide elements that shouldn't be shown yet
       DOMElements.coasterImage.classList.add('hidden');
       DOMElements.inputContainer.classList.add('hidden');
@@ -617,7 +615,7 @@ async function submitScore() {
     // Client-side validation
     if (!name) { alert("Please enter a name."); return; }
     if (score <= 0) { alert("Cannot submit score of 0."); return; }
-    if (name.length > 15) { alert("Name is too long (max 15 characters)."); return; }
+    if (name.length > 20) { alert("Name is too long (max 20 characters)."); return; }
 
     DOMElements.submitScoreButton.disabled = true;
     DOMElements.submitScoreButton.textContent = "Submitting...";
