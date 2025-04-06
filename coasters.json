@@ -24,9 +24,3 @@
   { "id": 23, "image": "coaster23.png", "manufacturer": ["Wisdom Rides", "Wisdom"], "name": "Miner Mike", "country": "USA", "park": "Haunted Trails (Burbank)", "openingDate": "1994" },
   { "id": 24, "image": "coaster24.png", "manufacturer": ["Mack Rides", "Mack"], "name": "Wild Mouse", "country": "Japan", "park": "Nagashima Spa Land", "openingDate": "1996" },
   { "id": 25, "image": "coaster25.png", "manufacturer": ["Maurer Rides", "Maurer", "Maurer & Söhne"], "name": "X-Coaster", "country": "USA", "park": "Magic Springs Theme and Water Park", "openingDate": "2006" }
-  
-  // !!! IMPORTANT: ADD MANY MORE COASTERS HERE !!!
-  // Use the structure above. Ensure `manufacturer` is an array.
-  // Use relative paths (like "assets/coasterX.png") if hosting images yourself,
-  // or absolute URLs if hotlinking (less reliable).
-]
