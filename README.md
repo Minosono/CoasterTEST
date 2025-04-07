@@ -1,21 +1,36 @@
-# Roller Coaster Quiz Challenge
+# 🎢 Roller Coaster Quiz Challenge 🏆
 
-A web-based quiz game where you guess the manufacturer of roller coasters. Features dynamic data loading (from JSON), difficulty modes, autoplay, hints, and an online leaderboard powered by Google Sheets via Google Apps Script. Designed to run on static hosting like GitHub Pages.
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue.svg)](https://minosono.github.io/CoasterQuizChallenge/) 
 
-## Features
 
-*   Guess the manufacturer from an image.
-*   Hard/Easy difficulty modes (text input vs multiple choice).
-*   Adjustable guess timer per difficulty.
-*   Hint system (reveals park/country).
-*   Autoplay mode.
-*   Streak counter and local personal best tracking (persisted in browser).
-*   Average correct guess time tracking (persisted in browser).
-*   Online leaderboard (Top 10 Streaks) using Google Sheets:
-    *   Updates existing score if the *same name* submits a *higher* score.
-    *   Basic server-side name moderation (bad word filter).
-*   Remembers the last used player name for submission (in the same browser).
-*   Dark Mode support (syncs with system preference initially).
-*   Loads coaster data dynamically from `coasters.json`.
-*   Responsive design for various screen sizes.
+Test your roller coaster manufacturer knowledge! This web-based quiz challenges you to identify the maker of various coasters based on their pictures. Features dynamic data, multiple difficulty levels, and a live online leaderboard.
 
+<p align="center">
+</p>
+
+## ✨ Features
+
+*   **🎢 Guessing Game:** Identify roller coaster manufacturers from images.
+*   **📊 Dynamic Data:** Many different Coaster information.
+*   **⚙️ Difficulty Levels:**
+    *   **Hard Mode:** Type the manufacturer's name (typo-tolerant).
+    *   **Easy Mode:** Select from multiple-choice options.
+*   **⏱️ Timed Guesses:** Countdown timer for each coaster.
+*   **💡 Hint System:** Reveal the coaster's park and country if you're stuck.
+*   **🕹️ Autoplay:** Automatically advance to the next coaster after answering.
+*   **📈 Stats Tracking:**
+    *   Current Correct Answer Streak.
+    *   Local Personal Best Streak (saved in browser).
+    *   Average Correct Guess Time (saved in browser).
+*   **🏆 Online Leaderboard:**
+    *   See the Top 100 highest streaks submitted by players.
+    *   Updates scores if the *same name* achieves a *higher* streak.
+    *   Powered by Google Sheets & Google Apps Script.
+    *   Includes basic server-side name filtering for moderation.
+*   **💾 Local Persistence:** Remembers your dark mode preference, personal best streak, average time data, and the last name used for leaderboard submission within your browser.
+*   **🌙 Dark Mode:** Automatic detection based on system preference, with a manual toggle.
+*   **📱 Responsive Design:** Adapts layout for desktop, tablet, and mobile screens.
+
+
+
+*Have fun testing your roller coaster knowledge!* 🎢
